@@ -1,4 +1,4 @@
-let input = document.getElementById("toDoInp")
+// play somethinglet input = document.getElementById("toDoInp")
 let button = document.getElementById("butt")
 let appendPar = document.querySelector(".newToDo")
 let oldPar = document.getElementById("newPar")
@@ -20,3 +20,4 @@ let oldPar = document.getElementById("newPar")
  input.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
       noviParagraf();}})
+// play something
